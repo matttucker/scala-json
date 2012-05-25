@@ -1,0 +1,15 @@
+# sbt
+boot/
+target/
+.history
+
+# eclipse
+.cache
+.classpath
+.project
+.scala_dependencies
+.settings/
+.target/
+
+# mac
+.DS_Store

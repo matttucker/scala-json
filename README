@@ -1,0 +1,26 @@
+# Description on how to setup basic scala project using an Eclipse IDE.\
+#
+# Requirements:
+#   eclipse
+#   sbt-0.11.2
+#   sbteclipse plugin
+#
+# author: matt@geozen.com
+
+
+# mkdir json
+# cd json
+# cp ?/build.sbt .
+# vi build.sbt         <= update project name
+# cp ?/.gitignore .    <= copy default .gitignore file to root. update if necessary
+# git init
+
+# setup with sbt
+sbt-0.11.2
+> eclipse with-source=true
+
+
+# eclipse
+import project
+delete src/main/java
+delete src/test/java
